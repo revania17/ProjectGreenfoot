@@ -37,6 +37,8 @@ public class Level2 extends World
         addObject(nyawa3,50,36);
         Kupukupu2 kupukupu2 = new Kupukupu2();
         addObject(kupukupu2, 100, 200);
+        KupukupuBalik2 kupukupubalik2 = new KupukupuBalik2();
+        addObject(kupukupubalik2, 100, 150);
     }
     public void act()
     {

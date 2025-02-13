@@ -35,6 +35,8 @@ public class Level1 extends World
         addObject(nyawa3,230,36);
         Kupukupu kupukupu = new Kupukupu();
         addObject(kupukupu, 100, 200);
+        KupukupuBalik kupukupubalik = new KupukupuBalik();
+        addObject(kupukupubalik, 100, 150);
         //setPaintOrder(Palu.class, Tikus.class);
     }
     public void act()
