@@ -20,7 +20,7 @@ public class Tikus2 extends Actor
             ((Level2) getWorld()).score += 1;
             getWorld().removeObject(this);
         }
-        if(++timer >= 150){//2.5 detik
+        if(++timer >= 120){//2 detik
          getWorld().removeObject(this);
          return;
         }

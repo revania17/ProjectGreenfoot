@@ -20,7 +20,7 @@ public class TikusParasut extends Actor
             ((Level3) getWorld()).score += 1;
             getWorld().removeObject(this);
         }
-        if(++timer>= 120){//2 detik
+        if(++timer>= 90){//1,5 detik
             getWorld().removeObject(this);
             return;
         }

@@ -24,7 +24,7 @@ public class Kucing extends Actor
             getWorld().addObject(new KucingNangis(),getX(),getY());
             getWorld().removeObject(this);
         }
-        if(++timer >= 150){//2.5 detik
+        if(++timer >= 120){//2 detik
             getWorld().removeObject(this);
             return;
         }

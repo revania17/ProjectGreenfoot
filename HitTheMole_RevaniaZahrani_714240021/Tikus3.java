@@ -20,9 +20,9 @@ public class Tikus3 extends Actor
             ((Level3) getWorld()).score += 1;
             getWorld().removeObject(this);
         }
-        if(++timer >= 120){//2 detik
-        getWorld().removeObject(this);
-        return;
+        if(++timer >= 90){//1,5 detik
+            getWorld().removeObject(this);
+            return;
         }
     }
 }
